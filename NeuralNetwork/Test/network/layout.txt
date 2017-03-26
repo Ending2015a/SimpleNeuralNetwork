@@ -1,0 +1,203 @@
+obj{
+	Name: 
+	Parent: 
+	Map: NeuralNetwork{
+		obj{
+			Name: NeuralNetwork
+			Parent: 
+			Map: Layer{
+				obj{
+					Name: Layer
+					Parent: NeuralNetwork
+					Map: Neuron{
+						obj{
+							Name: Neuron
+							Parent: Layer
+							Map: bias{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: delta{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: output{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+						}
+						obj{
+							Name: Neuron
+							Parent: Layer
+							Map: bias{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: delta{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: output{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+						}
+					}
+				}
+				obj{
+					Name: Layer
+					Parent: NeuralNetwork
+					Map: Neuron{
+						obj{
+							Name: Neuron
+							Parent: Layer
+							Map: bias{
+								obj{
+									Name: 0.75752585886128642745
+									Parent: Neuron
+								}
+							}
+							Map: delta{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: output{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: weight{
+								obj{
+									Name: 1.0777889551408108559
+									Parent: Neuron
+								}
+								obj{
+									Name: 1.048067972469127529
+									Parent: Neuron
+								}
+							}
+						}
+						obj{
+							Name: Neuron
+							Parent: Layer
+							Map: bias{
+								obj{
+									Name: -1.3318465331927145101
+									Parent: Neuron
+								}
+							}
+							Map: delta{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: output{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: weight{
+								obj{
+									Name: 2.4390392514544028124
+									Parent: Neuron
+								}
+								obj{
+									Name: -3.6291056240723209569
+									Parent: Neuron
+								}
+							}
+						}
+					}
+				}
+				obj{
+					Name: Layer
+					Parent: NeuralNetwork
+					Map: Neuron{
+						obj{
+							Name: Neuron
+							Parent: Layer
+							Map: bias{
+								obj{
+									Name: 1.9990767404711562438
+									Parent: Neuron
+								}
+							}
+							Map: delta{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: output{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: weight{
+								obj{
+									Name: 1.7948857599536196528
+									Parent: Neuron
+								}
+								obj{
+									Name: -7.6728782406807667371
+									Parent: Neuron
+								}
+							}
+						}
+						obj{
+							Name: Neuron
+							Parent: Layer
+							Map: bias{
+								obj{
+									Name: -1.9695302770134073267
+									Parent: Neuron
+								}
+							}
+							Map: delta{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: output{
+								obj{
+									Name: 0
+									Parent: Neuron
+								}
+							}
+							Map: weight{
+								obj{
+									Name: -1.8270931848127560659
+									Parent: Neuron
+								}
+								obj{
+									Name: 7.6779860465698943628
+									Parent: Neuron
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
